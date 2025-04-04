@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#top{
+    background-color: #cf8163;
+}
+#main{
+    background-color: aqua;
+}
+#bottom{
+    background-color: #43c83a;
+}
+section h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+section p{
+    font-size: 20px;
+    width: 90%;
+}
+button{
+    background-color: rgba(178, 34, 34, 0);
+    border: none;
+    font-size: 70px;
+}
+a{
+    color:black;
+}
