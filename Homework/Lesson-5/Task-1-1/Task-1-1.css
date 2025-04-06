@@ -1,0 +1,27 @@
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 250px;
+    width: 250px;
+    border: 15px solid pink;
+    animation: circle 10s ease infinite alternate;
+}
+@keyframes circle {
+    from {
+        transform: rotate(360deg);
+
+    }
+    50% {
+        border: 15px solid #43c83a;
+        border-radius: 50%;
+        transform: rotate(-360deg);
+    }
+    to{
+       transform: scale(2) rotate(360deg);
+    }
+}
+
