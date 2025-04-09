@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.main-section {
+    height: 65%;
+    width: 25%;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img.inst{
+    width: 60%;
+    margin: 13% auto;
+    display: block;
+}
+div.form-section{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+}
+.name, .password{
+    height:12%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    background-color: rgba(243, 243, 243, 0.73);
+}
+.submit{
+    border-radius: 10px;
+    background-color: rgb(106, 159, 215);
+    border: none;
+    height: 9%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.submit:hover{
+    background-color: rgb(20, 53, 89);
+}
+span{
+    display: block;
+    margin: 40px auto;
+    font-weight: 500;
+    color: rgba(85, 81, 81, 0.88);
+}
+.div_facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+img.face{
+    width: 25px;
+    height: 25px;
+}
+.facebook{
+    display: block;
+    margin: 0 15px;
+    color: rgba(49, 88, 122, 0.93);
+    font-weight: bold;
+}
+.forget_password{
+    display: block;
+    margin: 30px auto;
+    color: rgba(49, 88, 122, 0.93);
+    font-size: 15px;
+}
+.extra{
+    height: 7%;
+    width: 25%;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+div.extra>a{
+    margin: 0 5px;
+    color: rgb(106, 159, 215);
+    font-weight: bold;
+}
