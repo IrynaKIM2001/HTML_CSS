@@ -1,0 +1,22 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrapper{
+        margin: 32px 24px;
+        width: 720px;
+        align-items: flex-start;
+    }
+    .box{
+        height: 239px;
+    }
+    .box h3{
+        width: 218px;
+
+        padding: 20px 0 15px 0;
+    }
+    img{
+      width: 218px;
+      height: 164px;
+    }
+    .box-1{
+        height: 263px;
+    }
+}
